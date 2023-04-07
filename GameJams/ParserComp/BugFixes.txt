@@ -1,0 +1,9 @@
+--BUGFIXES
+-not specifiying "go_to" commands location breaks game
+-no way to quit the game
+--NOT FIXED
+-player sometimes isnt healed when using "eat" command
+--feedback
+-show health command
+-show health in units
+-trading by item name

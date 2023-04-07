@@ -1,0 +1,38 @@
+help - explain all comands
+usage - "!help"
+
+poll - shows all polls or one specific if specified
+usage -  "!poll abcd"
+abcd is pollID if no PollID sent you get all polls else oly selected poll will be chown
+
+create - creates poll and shows its ID
+usage - "!create"
+
+name - changes polls name using its ID
+usage - "!name abcd [name]"
+abcd is PollId
+
+size - sets number of possible answers using its ID
+usage - "!size abcd e"
+abcd is PollID
+e is an integer which will be set to size of possible choses
+!!!ALL CHANGED CHOSES WILL BE DELETED!!!
+
+choses - sets posible answers to text using its ID
+usage - "!choses abcd e [chose]"
+abcd is pollID
+e is answer number
+
+delete - deletes polls using its ID
+usage - "!delete abcd"
+abcd is PollID
+
+vote - vote for chosen poll and vote using its ID and answer number
+usage - "!vote abcd e"
+abcd is pollID
+e is answer number
+
+votes - show votes of chosen poll using its ID
+usage - "!votes abcd"
+abcd is pollID
+
